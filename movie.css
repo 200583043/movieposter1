@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+body {
+  font-family: "Pirata One", "Trebuchet MS", "Lucida Sans Unicode",
+    "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(images/wp9181937-4k-pirate-wallpapers.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.firstpage {
+  display: flex;
+  display: inline-grid;
+  justify-content: center;
+}
+
+.title {
+  font-size: 29px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.details,
+.imdb-rating,
+.genres,
+.main-storyline,
+.director {
+  font-size: larger;
+  margin-bottom: 20px;
+  color: white;
+  text-align: center;
+}
+
+.rating-btn {
+  background-color: rgb(207, 207, 111);
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.movie-image {
+  margin-left: 65%;
+}
+.movie-trailer {
+  display: block;
+  margin: auto;
+  max-width: 80%;
+  border-radius: 0px;
+}
+
+.movie-trailer {
+  margin-top: -40px;
+  margin-left: 50%;
+}
+.reviews {
+  font-size: 20px;
+  font-weight: bold;
+
+  margin-bottom: 10px;
+  text-align: center;
+  color: rgb(209, 207, 207);
+}
+.reviews a {
+  text-decoration: none;
+  color: rgb(198, 214, 214);
+}
